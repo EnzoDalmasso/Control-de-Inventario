@@ -1,0 +1,13 @@
+## Carpetas de compilación y salida
+[Bb]in/
+[Oo]bj/
+
+## Archivos de datos generados en ejecucion
+inventario.json
+movimientos.json
+
+## Configuraciones de IDEs
+.vs/
+.vscode/
+*.user
+*.suo

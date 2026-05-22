@@ -1,0 +1,108 @@
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.exe
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.deps.json
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.runtimeconfig.json
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.pdb
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.AssemblyReference.cache
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control_de_Inventario.Form1.resources
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.GenerateResource.cache
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.AssemblyInfoInputs.cache
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.AssemblyInfo.cs
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.CoreCompileInputs.cache
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control .DB029E2A.Up2Date
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\refint\Control de Inventario.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.pdb
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.genruntimeconfig.cache
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\ref\Control de Inventario.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control_de_Inventario.Form2.resources
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.barcodes.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.forms.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.io.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.kernel.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.layout.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.pdfa.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.pdfua.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.sign.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.styledxmlparser.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.svg.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.commons.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\mobel\Desktop\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.bouncy-castle-adapter.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.exe
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.deps.json
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.runtimeconfig.json
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Control de Inventario.pdb
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.barcodes.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.forms.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.io.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.kernel.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.layout.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.pdfa.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.pdfua.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.sign.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.styledxmlparser.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.svg.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.bouncy-castle-adapter.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\itext.commons.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.AssemblyReference.cache
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control_de_Inventario.Form1.resources
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control_de_Inventario.Form2.resources
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.GenerateResource.cache
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.AssemblyInfoInputs.cache
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.AssemblyInfo.cs
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.csproj.CoreCompileInputs.cache
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control .DB029E2A.Up2Date
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\refint\Control de Inventario.dll
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.pdb
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\Control de Inventario.genruntimeconfig.cache
+C:\Users\mobel\Desktop\Curso PCP\Control de Inventario\Control de Inventario\obj\Debug\net8.0-windows\ref\Control de Inventario.dll

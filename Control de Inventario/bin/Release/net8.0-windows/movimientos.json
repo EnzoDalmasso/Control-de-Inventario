@@ -1,0 +1,14 @@
+[
+  {
+    "Producto": "Prueba 123",
+    "Cantidad": 1,
+    "Tipo": "Egreso",
+    "Fecha": "2026-02-19T12:54:35.3062676-03:00"
+  },
+  {
+    "Producto": "Patas Plasticas 5/16\"",
+    "Cantidad": 5,
+    "Tipo": "Ingreso",
+    "Fecha": "2026-02-19T12:54:51.7095972-03:00"
+  }
+]
