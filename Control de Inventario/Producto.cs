@@ -8,7 +8,9 @@ namespace Control_de_Inventario
 {
     internal class Producto
     {
-        public string Nombre { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; } = string.Empty;
         public int Stock { get; set; }
+        public int MinimumStock { get; set; } = 5;
     }
 }

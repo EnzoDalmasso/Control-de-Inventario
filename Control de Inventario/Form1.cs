@@ -17,6 +17,7 @@ namespace Control_de_Inventario
     {
         private List<Producto> inventario = new();
         private List<Movimiento> movimientos = new();
+        private readonly InventoryApiClient apiClient = new();
 
         private string archivoInventario = "inventario.json";
         private string archivoMovimientos = "movimientos.json";
@@ -42,8 +43,8 @@ namespace Control_de_Inventario
         }
 
 
-        public Button btnExcel;
-        public Button btnPDF;
+        public Button btnExcel = null!;
+        public Button btnPDF = null!;
 
 
         public Form1()
@@ -54,9 +55,8 @@ namespace Control_de_Inventario
 
 
             InicializarDataGrid();
-            CargarInventario();
-            CargarMovimientos();
-            ActualizarDataGrid();
+            lblTotal.Text = "Cargando inventario...";
+            Shown += async (_, _) => await CargarDatosDesdeApiAsync();
 
 
 
@@ -135,7 +135,7 @@ namespace Control_de_Inventario
             lblTotal.Text = $"Productos: {datos.Count} | Unidades: {datos.Sum(p => p.Stock)}";
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private async void btnAgregar_Click(object sender, EventArgs e)
         {
             string nombre = txtProducto.Text.Trim();
 
@@ -157,24 +157,29 @@ namespace Control_de_Inventario
                 return;
             }
 
-            inventario.Add(new Producto { Nombre = nombre, Stock = cantidad });
-
-            GuardarInventario();
-            ActualizarDataGrid();
-            LimpiarCampos();
+            try
+            {
+                await apiClient.CrearProductoAsync(nombre, cantidad);
+                await CargarDatosDesdeApiAsync();
+                LimpiarCampos();
+            }
+            catch (Exception exception)
+            {
+                MostrarErrorApi(exception);
+            }
         }
 
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private async void btnIngresar_Click(object sender, EventArgs e)
         {
-            ModificarStock("Ingreso");
+            await ModificarStockAsync("Ingreso");
         }
 
-        private void btnDescontar_Click(object sender, EventArgs e)
+        private async void btnDescontar_Click(object sender, EventArgs e)
         {
-            ModificarStock("Egreso");
+            await ModificarStockAsync("Egreso");
         }
 
-        private void ModificarStock(string tipo)
+        private async Task ModificarStockAsync(string tipo)
         {
             string nombre = txtProducto.Text.Trim();
 
@@ -199,23 +204,23 @@ namespace Control_de_Inventario
                 return;
             }
 
-            producto.Stock += tipo == "Ingreso" ? cantidad : -cantidad;
-
-            movimientos.Add(new Movimiento
+            try
             {
-                Producto = nombre,
-                Cantidad = cantidad,
-                Tipo = tipo,
-                Fecha = DateTime.Now
-            });
+                if (tipo == "Ingreso")
+                    await apiClient.IngresarStockAsync(producto.Id, cantidad);
+                else
+                    await apiClient.DescontarStockAsync(producto.Id, cantidad);
 
-            GuardarInventario();
-            GuardarMovimientos();
-            ActualizarDataGrid();
-            LimpiarCampos();
+                await CargarDatosDesdeApiAsync();
+                LimpiarCampos();
+            }
+            catch (Exception exception)
+            {
+                MostrarErrorApi(exception);
+            }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private async void btnEliminar_Click(object sender, EventArgs e)
         {
             string nombre = txtProducto.Text.Trim();
 
@@ -228,11 +233,16 @@ namespace Control_de_Inventario
                 return;
             }
 
-            inventario.Remove(producto);
-
-            GuardarInventario();
-            ActualizarDataGrid();
-            LimpiarCampos();
+            try
+            {
+                await apiClient.EliminarProductoAsync(producto.Id);
+                await CargarDatosDesdeApiAsync();
+                LimpiarCampos();
+            }
+            catch (Exception exception)
+            {
+                MostrarErrorApi(exception);
+            }
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -271,10 +281,18 @@ namespace Control_de_Inventario
         }
         
 
-        private void btnHistorial_Click(object sender, EventArgs e)
+        private async void btnHistorial_Click(object sender, EventArgs e)
         {
-            Form2 historial = new Form2(movimientos);
-            historial.ShowDialog();
+            try
+            {
+                movimientos = await apiClient.ObtenerMovimientosAsync();
+                Form2 historial = new Form2(movimientos);
+                historial.ShowDialog();
+            }
+            catch (Exception exception)
+            {
+                MostrarErrorApi(exception);
+            }
         }
 
         private void btnImprimir_Click(object sender, EventArgs e)
@@ -284,14 +302,14 @@ namespace Control_de_Inventario
             preview.ShowDialog();
         }
 
-        private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
+        private void PrintDocument_PrintPage(object? sender, PrintPageEventArgs e)
         {
             int y = 100;
             int x = 50;
 
             Font font = new Font("Arial", 11);
 
-            e.Graphics.DrawString("LISTADO DE INVENTARIO",
+            e.Graphics!.DrawString("LISTADO DE INVENTARIO",
                 new Font("Arial", 14, FontStyle.Bold),
                 Brushes.Black, x, 50);
 
@@ -418,14 +436,38 @@ namespace Control_de_Inventario
             }
         }
 
-        private void btnExcel_Click(object sender, EventArgs e)
+        private void btnExcel_Click(object? sender, EventArgs e)
         {
             ExportarExcel();
         }
 
-        private void btnPDF_Click(object sender, EventArgs e)
+        private void btnPDF_Click(object? sender, EventArgs e)
         {
             ExportarPDF();
+        }
+
+        private async Task CargarDatosDesdeApiAsync()
+        {
+            try
+            {
+                inventario = await apiClient.ObtenerProductosAsync();
+                movimientos = await apiClient.ObtenerMovimientosAsync();
+                ActualizarDataGrid();
+            }
+            catch (Exception exception)
+            {
+                lblTotal.Text = "No se pudo conectar con la API";
+                MostrarErrorApi(exception);
+            }
+        }
+
+        private static void MostrarErrorApi(Exception exception)
+        {
+            MessageBox.Show(
+                $"No se pudo completar la operacion.\n\nDetalle: {exception.Message}\n\nVerifique que la API este ejecutandose en http://localhost:5071.",
+                "Error de conexion con la API",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
         }
 
 

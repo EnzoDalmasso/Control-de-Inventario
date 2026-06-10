@@ -5,6 +5,9 @@
 ## Archivos de datos generados en ejecucion
 inventario.json
 movimientos.json
+*.db
+*.db-shm
+*.db-wal
 
 ## Configuraciones de IDEs
 .vs/

@@ -1,0 +1,41 @@
+@Inventory.Api_HostAddress = http://localhost:5071
+
+GET {{Inventory.Api_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{Inventory.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+POST {{Inventory.Api_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Teclado mecanico",
+  "stock": 10,
+  "minimumStock": 5
+}
+
+###
+
+POST {{Inventory.Api_HostAddress}}/api/products/1/stock/decrease
+Content-Type: application/json
+
+{
+  "quantity": 2
+}
+
+###
+
+GET {{Inventory.Api_HostAddress}}/api/stock-movements
+Accept: application/json
+
+###
+
+GET {{Inventory.Api_HostAddress}}/api/stock-movements?productId=1&type=Exit
+Accept: application/json
+
+###
