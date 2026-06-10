@@ -13,6 +13,10 @@ El proyecto comenzo como una aplicacion **WinForms** y fue evolucionado para con
 - Exportacion de inventario a PDF y Excel.
 - Tests unitarios con xUnit para reglas de dominio.
 
+## Demo
+
+[Ver demo del proyecto](docs/demo-control-inventario.mp4)
+
 ## Tecnologias
 
 - C#
